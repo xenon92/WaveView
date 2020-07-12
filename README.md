@@ -32,7 +32,7 @@ A wave view of android,can be used as progress bar.
         android:background="#ff702e8c"
         wave:above_wave_color="@android:color/white"
         wave:blow_wave_color="@android:color/white"
-        wave:progress="80"
+        wave:wave_progress="80"
         wave:wave_height="little"
         wave:wave_hz="normal"
         wave:wave_length="middle" />

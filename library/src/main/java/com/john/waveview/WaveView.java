@@ -40,7 +40,7 @@ public class WaveView extends LinearLayout {
         final TypedArray attributes = context.getTheme().obtainStyledAttributes(attrs, R.styleable.WaveView, R.attr.waveViewStyle, 0);
         mAboveWaveColor = attributes.getColor(R.styleable.WaveView_above_wave_color, DEFAULT_ABOVE_WAVE_COLOR);
         mBlowWaveColor = attributes.getColor(R.styleable.WaveView_blow_wave_color, DEFAULT_BLOW_WAVE_COLOR);
-        mProgress = attributes.getInt(R.styleable.WaveView_progress, DEFAULT_PROGRESS);
+        mProgress = attributes.getInt(R.styleable.WaveView_wave_progress, DEFAULT_PROGRESS);
         mWaveHeight = attributes.getInt(R.styleable.WaveView_wave_height, MIDDLE);
         mWaveMultiple = attributes.getInt(R.styleable.WaveView_wave_length, LARGE);
         mWaveHz = attributes.getInt(R.styleable.WaveView_wave_hz, MIDDLE);
